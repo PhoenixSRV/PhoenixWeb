@@ -1,0 +1,235 @@
+/*-------------------------------
+          CSS DEL BODY
+-------------------------------*/
+
+body {
+    background-image: url(../imagenes/chocapic13s-shaders-tower.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*-------------------------------
+       CSS DE LOS TITULOS
+-------------------------------*/
+
+.titulo1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-top: 170px;
+    color: #000000;
+    text-shadow:
+        0 0 5px #ff6208,
+        0 0 10px #ff6208,
+        0 0 20px #ff6208,
+        0 0 40px #ff6208,
+        0 0 80px #ff6208,
+        0 0 90px #ff6208,
+        0 0 100px #ff6208;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-shadow:
+    0 0 5px #5900ff,
+    0 0 10px #5900ff,
+    0 0 20px #5900ff,
+    0 0 40px #5900ff,
+    0 0 80px #5900ff,
+    0 0 90px #5900ff,
+    0 0 100px #5900ff;
+}
+
+.finimagen {
+    background-color: #a2a2a2;
+    margin-top: 500px;
+    margin-bottom: -15px;
+    margin-right: -7px;
+    margin-left: -7px;
+}
+
+/*------------------------------
+--------------------------------
+   AQUI VA EL ESTILO DEL MENÚ 
+--------------------------------
+------------------------------*/
+
+.menu {
+    background-color: #000000;
+    padding: 35px;
+    margin-top: -36.5px;
+    text-align: center;
+    display: block;
+}
+
+/*-----------------------------------------------------
+----------------------MENU HOME------------------------
+-----------------------------------------------------*/
+
+    .menu .home {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+        .menu .home:hover {
+            background-color: #0fa921;
+            color: #000000;
+            padding: 15px;
+            border-radius: 5%;
+            box-shadow: 0 0 5px #0fa921,
+                        0 0 10px #0fa921,
+                        0 0 20px #0fa921,
+                        0 0 40px #0fa921,
+                        0 0 80px #0fa921;
+        }
+
+/*-----------------------------------------------------
+--------------------MENU INFORMATION-------------------
+-----------------------------------------------------*/
+
+    .menu .information {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .information:hover {
+        background-color: #4a00eb;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #4a00eb,
+                    0 0 10px #4a00eb,
+                    0 0 20px #4a00eb,
+                    0 0 40px #4a00eb,
+                    0 0 80px #4a00eb;
+    }
+
+/*-----------------------------------------------------
+--------------------MENU ABOUT US----------------------
+-----------------------------------------------------*/
+
+    .menu .aboutus {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .aboutus:hover {
+        background-color: #df7300;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #df7300,
+                    0 0 10px #df7300,
+                    0 0 20px #df7300,
+                    0 0 40px #df7300,
+                    0 0 80px #df7300;
+    }
+
+/*-----------------------------------------------------
+-------------------MENU CONTACT US---------------------
+-----------------------------------------------------*/
+
+    .menu .contactus {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .contactus:hover {
+        background-color: #ec0000;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #ec0000,
+                    0 0 10px #ec0000,
+                    0 0 20px #ec0000,
+                    0 0 40px #ec0000,
+                    0 0 80px #ec0000;
+    }
+
+/*-----------------------------------------------------
+-------------------PÁGINA COMPLETA---------------------
+-----------------------------------------------------*/
+.actualizaciones {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.p_actualizaciones {
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.discord_tit1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 75px;
+}
+.discord1 {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    -webkit-transition: 0.25s linear;
+    transition: 0.25s linear;
+}
+
+.discord1:hover {
+    background-color: #2600ff;
+        color: #ffffff;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #2600ff,
+                    0 0 10px #2600ff,
+                    0 0 20px #2600ff,
+                    0 0 40px #2600ff;
+}
+
+.copyright1 {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: -4rem;
+    }
+}

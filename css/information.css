@@ -1,0 +1,204 @@
+body {
+    background-color: #a2a2a2;
+}
+
+/*------------------------------
+--------------------------------
+   AQUI VA EL ESTILO DEL MENÚ 
+--------------------------------
+------------------------------*/
+
+.menu {
+    background-color: #000000;
+    padding: 35px;
+    margin-top: -8px;
+    margin-left: -8px;
+    text-align: center;
+    display: block;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+/*-----------------------------------------------------
+----------------------MENU HOME------------------------
+-----------------------------------------------------*/
+
+    .menu .home {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+        .menu .home:hover {
+            background-color: #0fa921;
+            color: #000000;
+            padding: 15px;
+            border-radius: 5%;
+            box-shadow: 0 0 5px #0fa921,
+                        0 0 10px #0fa921,
+                        0 0 20px #0fa921,
+                        0 0 40px #0fa921,
+                        0 0 80px #0fa921;
+        }
+
+/*-----------------------------------------------------
+--------------------MENU INFORMATION-------------------
+-----------------------------------------------------*/
+
+    .menu .information {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .information:hover {
+        background-color: #4a00eb;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #4a00eb,
+                    0 0 10px #4a00eb,
+                    0 0 20px #4a00eb,
+                    0 0 40px #4a00eb,
+                    0 0 80px #4a00eb;
+    }
+
+/*-----------------------------------------------------
+--------------------MENU ABOUT US----------------------
+-----------------------------------------------------*/
+
+    .menu .aboutus {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .aboutus:hover {
+        background-color: #df7300;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #df7300,
+                    0 0 10px #df7300,
+                    0 0 20px #df7300,
+                    0 0 40px #df7300,
+                    0 0 80px #df7300;
+    }
+
+/*-----------------------------------------------------
+-------------------MENU CONTACT US---------------------
+-----------------------------------------------------*/
+
+    .menu .contactus {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        padding: 20px;
+        -webkit-transition: 0.25s linear;
+        transition: 0.25s linear;
+    }
+
+    .menu .contactus:hover {
+        background-color: #ec0000;
+        color: #000000;
+        padding: 15px;
+        border-radius: 5%;
+        box-shadow: 0 0 5px #ec0000,
+                    0 0 10px #ec0000,
+                    0 0 20px #ec0000,
+                    0 0 40px #ec0000,
+                    0 0 80px #ec0000;
+    }
+
+/*-----------------------------------------------------
+-------------------ESTILOS PÁGINA----------------------
+-----------------------------------------------------*/
+
+.contenedor2 {
+    margin-top: 150px;
+}
+
+.contenedor2 #whatis {
+    padding: 50px;
+    font-size: 34px;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contenedor2 #p_whatis {
+    margin-top: -15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.contenedor2 #howjoin {
+    padding: 50px;
+    font-size: 34px;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contenedor2 #p_howjoin {
+    margin-top: -15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.contenedor2 #whereip {
+    padding: 50px;
+    font-size: 34px;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contenedor2 #p_whereip {
+    margin-top: -15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.contenedor2 #premium {
+    padding: 50px;
+    font-size: 34px;
+    color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.contenedor2 #p_premium {
+    margin-top: -15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.copyright2 {
+    background-color: #000000;
+    color: #ffffff;
+    margin: -8px;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    body {
+        padding: -4rem;
+    }
+}
